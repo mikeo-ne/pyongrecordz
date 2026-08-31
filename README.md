@@ -48,6 +48,18 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 
+## Deployment
+
+The site is deployed to GitHub Pages automatically on every push to `main` via
+[`.github/workflows/static.yml`](.github/workflows/static.yml) (static content,
+no build step).
+
+- **Live site:** https://mikeo-ne.github.io/pyongrecordz/
+- **Pages source:** branch `main`, root `/`, GitHub Actions (workflow) build
+
+SEO extras: `sitemap.xml` + `robots.txt` for crawlers, and Open Graph /
+Twitter Card meta tags plus canonical URLs on every page.
+
 ## Notes
 
 - Imagery is AI-generated placeholder art; swap in real photos in `assets/img/`.
